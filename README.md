@@ -82,7 +82,7 @@ number of parameters: 81894144
 
 现在，我们可以使用我们用目标语料训练生成的模型来进行文字生成，使用如下命令：
 ```bash
-python generate.py   --device 1   --length 1000   --tokenizer_path cache/vocab_small.txt   --model_path model/final_model   --prefix "[CLS]萧炎大喝一声"   --topp 1   --temperature 1.0 --save_samples --save_samples_path ./mnt/
+python generate.py   --device 1   --length 1000   --tokenizer_path cache/vocab_small.txt   --model_path model/final_model   --prefix "[CLS]罗辑思考"   --topp 1   --temperature 1.0 --save_samples --save_samples_path ./mnt/
 ```
 
 3.Result
