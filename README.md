@@ -3,7 +3,7 @@ Training GPT2 Chinese from zero to hero
 
 1.Description:
 ---
-从头训练一个82M的中文GPT2模型，使用BERT的Tokenizer.中文语料采用斗破苍穹小说的部分章节，大小约16M。训练15个周期，batchsize=8。最终可以续写10句以上的斗破苍穹小说。
+从头训练一个82M的中文GPT2模型，使用BERT的Tokenizer.中文语料采用三体的部分章节，大小约16M。训练15个周期，batchsize=8。最终可以续写10句以上的斗破苍穹小说。
 
 2.Start:
 ----
